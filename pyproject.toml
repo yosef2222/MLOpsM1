@@ -1,0 +1,23 @@
+[project]
+name = "yusufspackage"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "yosef2222",email = "yosef.eldesoky@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy (>=1.16.0,<2.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "catboost (>=1.2.7,<2.0.0)",
+    "optuna (>=4.2.1,<5.0.0)",
+    "clearml (>=1.17.1,<2.0.0)",
+    "fire (>=0.7.0,<0.8.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
