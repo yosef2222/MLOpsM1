@@ -1,5 +1,5 @@
 [project]
-name = "yusufspackage"
+name = "mlops_hw1"
 version = "0.1.0"
 description = ""
 authors = [
@@ -14,10 +14,16 @@ dependencies = [
     "catboost (>=1.2.7,<2.0.0)",
     "optuna (>=4.2.1,<5.0.0)",
     "clearml (>=1.17.1,<2.0.0)",
-    "fire (>=0.7.0,<0.8.0)"
+    "fire (>=0.7.0,<0.8.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "seaborn (>=0.13.2,<0.14.0)"
 ]
 
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+mlops_hw1 = "mlops_hw1.model:My_Classifier_Model"
