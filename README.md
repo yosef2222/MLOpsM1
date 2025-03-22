@@ -20,7 +20,7 @@ pip install mlops_hw1-0.1.0-py3-none-any.whl
 # 🚀 Running the Model Script
 ```
 cd mlops_hw1
-python model.py train --dataset=../data/train.csv
+python3 model.py train --dataset=../data/train.csv
 python3 model.py predict --dataset=../data/test.csv
 ```
 
