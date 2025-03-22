@@ -11,7 +11,7 @@ cd MLOpsM1
 2. **Set up the environment:**
 ```
 poetry install
-poetry shell  # Activate the virtual environment
+poetry env activate  # Activate the virtual environment
 ```
 ```
 cd dist/
