@@ -8,6 +8,7 @@ from sklearn.metrics import accuracy_score
 import fire
 import os
 
+os.makedirs("../data", exist_ok=True)
 logging.basicConfig(filename="../data/log_file.log", level=logging.INFO)
 
 class MyClassifierModel:
