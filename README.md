@@ -1,4 +1,5 @@
 # MLOpsM1
+work by:
 Абуелата Юсеф Осама Мохамед Элдсоуки 972301
 
 # 🛠 Installation & Setup
@@ -22,3 +23,11 @@ cd mlops_hw1
 python model.py train --dataset=../data/train.csv
 python3 model.py predict --dataset=../data/test.csv
 ```
+
+# 🛠 Resources Utilized
+This project utilizes the following resources:
+
+Optuna: A hyperparameter optimization framework to automate the search for the best model parameters.
+CatBoost: A gradient boosting library for training machine learning models, particularly effective for categorical data.
+ClearML: A machine learning experiment tracking and model management tool.
+Poetry: A dependency management and packaging tool for Python projects.
