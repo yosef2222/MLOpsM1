@@ -12,6 +12,10 @@ cd MLOpsM1
 poetry install
 poetry shell  # Activate the virtual environment
 ```
+```
+cd dist/
+pip install mlops_hw1-0.1.0-py3-none-any.whl 
+```
 # 🚀 Running the Model Script
 ```
 cd mlops_hw1
