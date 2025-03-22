@@ -28,6 +28,9 @@ python3 model.py predict --dataset=../data/test.csv
 This project utilizes the following resources:
 
 Optuna: A hyperparameter optimization framework to automate the search for the best model parameters.
-CatBoost: A gradient boosting library for training machine learning models, particularly effective for categorical data.
+
+CatBoost: A gradient boosting library for training machine learning models, particularly effective for categorical data. 
+
 ClearML: A machine learning experiment tracking and model management tool.
+
 Poetry: A dependency management and packaging tool for Python projects.
