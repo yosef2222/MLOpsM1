@@ -1,1 +1,0 @@
-{"iterations": 981, "depth": 5, "learning_rate": 0.026624118026934724, "l2_leaf_reg": 1.7410889208547, "border_count": 73, "random_strength": 3.5645739616109258, "bootstrap_type": "MVS", "grow_policy": "Lossguide", "early_stopping_rounds": 23}
